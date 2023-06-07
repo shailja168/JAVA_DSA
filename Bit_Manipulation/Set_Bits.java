@@ -6,7 +6,7 @@ public class Set_Bits {
         int count = 0;
         while (n > 0) {
             // int lsb = (n & 1);
-            if ((n & 1) == 1) {
+            if ((n & 1) == 1) { // check lsb
                 count++;
             }
             n >>= 1;

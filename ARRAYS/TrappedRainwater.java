@@ -2,6 +2,7 @@ package ARRAYS;
 
 public class TrappedRainwater {
 
+    //Auxilliary Arrays are used
     public static int trappingRainwater(int height[]) {
         int n = height.length;
 

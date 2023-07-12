@@ -253,7 +253,8 @@ public class Assignment {
         // printLL(head);
 
         //Question 5
-        int k = 3, n = 4;
+        int k = 3; //no. of LL
+        // int n = 4; //no. of elements in each LL
         Node arr[] = new Node[k];
 
         arr[0] = new Node(1);
